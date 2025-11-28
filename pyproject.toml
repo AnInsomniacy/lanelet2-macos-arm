@@ -12,7 +12,7 @@ authors = [
 maintainers = [
     { name = "Vincent Wu", email = "zhengyu.wu21@imperial.ac.uk" }
 ]
-description = "Your favorite map handling framework for automated driving, now standalone and with cross-platform support."
+description = "Your favorite map handling framework for automated driving, lanelet2, now standalone with native Apple Silicon (ARM64) macOS support."
 readme = "README.md"
 requires-python = ">=3.9"
 keywords = ["python", "lanelet2"]

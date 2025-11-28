@@ -1,4 +1,4 @@
 conan>=2.0.0
 cmake>=3.26
 ninja
-numpy
+numpy<2.0

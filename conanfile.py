@@ -16,7 +16,7 @@ class Lanelet2Conan(ConanFile):
     license = "BSD"
     url = "https://github.com/wu-vincent/lanelet2x"
     description = (
-        "Your favorite map handling framework for automated driving, now standalone and with cross-platform support."
+        "Your favorite map handling framework for automated driving, lanelet2, now standalone with native Apple Silicon (ARM64) macOS support."
     )
 
     # Binary configuration
@@ -60,10 +60,10 @@ class Lanelet2Conan(ConanFile):
     exports_sources = ["CMakeLists.txt", "lanelet2_*/*", "cmake/*"]
 
     def requirements(self):
-        self.requires("boost/[>=1.75.0 <=1.81.0]", headers=True, transitive_headers=True)
+        self.requires("boost/[>=1.75.0 <=1.86.0]", headers=True, transitive_headers=True)
         self.requires("eigen/3.4.0")
         self.requires("geographiclib/1.52")
-        self.requires("pugixml/1.13")
+        self.requires("pugixml/1.14")
         self.test_requires("gtest/1.14.0")
 
     def build_requirements(self):
