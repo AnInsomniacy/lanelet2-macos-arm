@@ -2,7 +2,7 @@
 
 A fork of [lanelet2x](https://github.com/wu-vincent/lanelet2x) with native **Apple Silicon (ARM64) macOS** support added.
 
-lanelet2-macos-arm is a standalone lanelet2 library with all ROS1/ROS2/Catkin dependencies removed. This fork adds optimized builds for ARM-based Macs (M1/M2/M3/M4).
+lanelet2-macos-arm is a standalone lanelet2 library with all ROS1/ROS2/Catkin dependencies removed. This fork adds optimized builds for ARM-based Macs.
 
 ![](lanelet2_core/doc/images/lanelet2_example_image.png)
 
